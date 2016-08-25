@@ -1,0 +1,30 @@
+"*":
+  core:
+    disabledPackages: [
+      "linter-jshint"
+    ]
+  "easy-motion-redux": {}
+  editor:
+    backUpBeforeSaving: true
+    fontSize: 15
+  "exception-reporting":
+    userId: "d756294f-9530-45fd-69c1-4a2fd74ad234"
+  jumpy: {}
+  "linter-jshint":
+    disableWhenNoJshintrcFileInPath: true
+  minimap:
+    plugins:
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+      pigments: true
+      pigmentsDecorationsZIndex: 0
+  "relative-numbers":
+    showAbsoluteNumbers: true
+  "split-diff":
+    diffWords: true
+    ignoreWhitespace: true
+    leftEditorColor: "red"
+    rightEditorColor: "green"
+    syncHorizontalScroll: true
+  welcome:
+    showOnStartup: false

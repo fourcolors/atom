@@ -1,0 +1,22 @@
+class LocationScope
+  def self.for(*args)
+    new(*args).for
+  end
+
+  def initialize(params, scope: Location)
+    @params = params
+    @scope = scope
+  end
+
+  def for
+    scope.for_merchants(merchant_ids)
+  end
+
+  private
+
+  attr_reader :params, :scope
+
+  def merchant_ids
+    params[:merchant_id].presence || params[:merchant_ids].presence
+  end
+end
